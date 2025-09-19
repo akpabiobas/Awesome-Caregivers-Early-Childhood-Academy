@@ -298,7 +298,7 @@ footer {
   text-align: center;
   padding: 30px;
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
-  border: solid 2px #a8dadc;
+  border: solid 2px #e63946;
 }
 
 .oval-content {
@@ -322,4 +322,5 @@ footer {
   font-size: 1rem;
   line-height: 1.5;
 }
+
 

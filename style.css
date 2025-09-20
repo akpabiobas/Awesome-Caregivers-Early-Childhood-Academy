@@ -230,7 +230,7 @@ footer {
 }
 
 .footer-links a:hover {
-  color: white;
+  color: #e63946;
 }
 
 .map-container {
@@ -385,3 +385,4 @@ footer {
   align-items: center;
   justify-content: center;
 }
+

@@ -269,8 +269,10 @@ footer {
     margin-bottom: 30px;
   }
 }
-.mission-vision-card {
+.mission,
+.vision{
   background-color: rgb(252, 252, 252);
+  border-radius: 20px;
 }
 .slanted-oval {
   width: 170px;
@@ -284,7 +286,7 @@ footer {
   text-align: center;
   padding: 30px;
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
-  border: solid 2px #a8dadc;
+  border: solid 3px #a8dadc;
 }
 .slanted-ovall {
   width: 170px;
@@ -298,12 +300,12 @@ footer {
   text-align: center;
   padding: 30px;
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
-  border: solid 2px #e63946;
+  border: solid 3px #a8dadc;
 }
 
 .oval-content {
   transform: rotate(15deg);
-  color: white;
+  color: #ffb703;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
 }
 .oval-contentt {
@@ -323,4 +325,63 @@ footer {
   line-height: 1.5;
 }
 
+.blob {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+  position: relative;
+  transition: transform 0.3s ease;
+}
 
+.blob:hover {
+  transform: scale(1.03);
+}
+
+.blob-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.blob-shape-1 {
+  width: 250px;
+  height: 210px;
+  border-radius: 63% 57% 74% 80% / 55% 48% 72% 65%;
+  border: 8px solid rgba(255, 255, 255, 0);
+  background: linear-gradient(45deg, #e62838, #e71a2b);
+}
+.blob-shape-2 {
+  width: 250px;
+  height: 210px;
+  border-radius: 40% 60% 70% 30% / 47% 43% 57% 53%;
+  border: 8px solid rgba(255, 255, 255, 0);
+  background: linear-gradient(45deg, #ffb703, #ffb703);
+}
+.blob-shape-3 {
+  width: 250px;
+  height: 210px;
+  border-radius: 53% 47% 37% 63% / 45% 37% 63% 55%;
+  border: 8px solid rgba(255, 255, 255, 0);
+  background: linear-gradient(45deg, #1d3557 , #1d3557);
+}
+.blob-shape-5 {
+  width: 250px;
+  height: 210px;
+  border-radius: 53% 47% 37% 63% / 45% 37% 63% 55%;
+  border: 8px solid rgba(255, 255, 255, 0);
+  background: linear-gradient(45deg, #f1faee);
+}
+.blob-shape-4 {
+  width: 250px;
+  height: 210px;
+  border-radius: 40% 60% 70% 30% / 47% 43% 57% 53%;
+  border: 8px solid rgba(255, 255, 255, 0);
+  background: linear-gradient(45deg, #a8dadc);
+}
+
+.img-holder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

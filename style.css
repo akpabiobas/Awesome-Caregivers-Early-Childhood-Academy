@@ -267,6 +267,8 @@ footer {
   }
   .about-img {
     margin-bottom: 30px;
+    height: 40vh;
+    object-fit: cover;
   }
 }
 .mission,
@@ -348,35 +350,35 @@ footer {
   width: 250px;
   height: 210px;
   border-radius: 63% 57% 74% 80% / 55% 48% 72% 65%;
-  border: 8px solid rgba(255, 255, 255, 0);
+  border: 2px solid rgba(255, 255, 255, 0);
   background: linear-gradient(45deg, #e62838, #e71a2b);
 }
 .blob-shape-2 {
   width: 250px;
   height: 210px;
   border-radius: 40% 60% 70% 30% / 47% 43% 57% 53%;
-  border: 8px solid rgba(255, 255, 255, 0);
+  border: 2px solid rgba(255, 255, 255, 0);
   background: linear-gradient(45deg, #ffb703, #ffb703);
 }
 .blob-shape-3 {
   width: 250px;
   height: 210px;
   border-radius: 53% 47% 37% 63% / 45% 37% 63% 55%;
-  border: 8px solid rgba(255, 255, 255, 0);
+  border: 2px solid rgba(255, 255, 255, 0);
   background: linear-gradient(45deg, #1d3557 , #1d3557);
 }
 .blob-shape-5 {
   width: 250px;
   height: 210px;
   border-radius: 53% 47% 37% 63% / 45% 37% 63% 55%;
-  border: 8px solid rgba(255, 255, 255, 0);
+  border: 2px solid rgba(255, 255, 255, 0);
   background: linear-gradient(45deg, #f1faee);
 }
 .blob-shape-4 {
   width: 250px;
   height: 210px;
   border-radius: 40% 60% 70% 30% / 47% 43% 57% 53%;
-  border: 8px solid rgba(255, 255, 255, 0);
+  border: 2px solid rgba(255, 255, 255, 0);
   background: linear-gradient(45deg, #a8dadc);
 }
 
@@ -385,4 +387,5 @@ footer {
   align-items: center;
   justify-content: center;
 }
+
 
